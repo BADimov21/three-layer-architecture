@@ -11,7 +11,7 @@ function validateLogin() {
 
             // Check if the entered username and password match any line in the text file
             users.forEach(user => {
-                var [storedUsername, storedPassword] = user.split(',');
+                let [storedUsername, storedPassword] = user.split(',');
 
                 // Trim whitespaces in case there are any
                 storedUsername = storedUsername.trim();

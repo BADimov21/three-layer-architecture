@@ -16,7 +16,7 @@
     <script src="../../business_logic/script.js"></script>
     <script>
         // Retrieve username from localStorage and display it
-        var storedUsername = localStorage.getItem('username');
+        let storedUsername = localStorage.getItem('username');
         if (storedUsername) {
             document.getElementById("userInfo").innerText = "Welcome! Logged in as: " + storedUsername;
         }
