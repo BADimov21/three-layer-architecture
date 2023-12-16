@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Login Page</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="validateLogin()">Login</button>
+        </form>
+        <p id="resultMessage"></p>
+    </div>
+
+    <script src="../business_logic/script.js"></script>
+</body>
+</html>

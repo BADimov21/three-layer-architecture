@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Dashboard</h1>
+        <p id="userInfo">.</p>
+        <a href="../index.html"><button>Go Back</button></a>
+    </div>
+
+    <script src="../../business_logic/script.js"></script>
+    <script>
+        // Retrieve username from localStorage and display it
+        var storedUsername = localStorage.getItem('username');
+        if (storedUsername) {
+            document.getElementById("userInfo").innerText = "Welcome! Logged in as: " + storedUsername;
+        }
+    </script>
+</body>
+</html>
