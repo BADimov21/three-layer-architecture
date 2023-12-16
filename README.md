@@ -20,7 +20,7 @@
     <li><a href="#about-the-project">  The Project</a></li>
     <li><a href="#used-technologies">  Technologies</a></li>
     <li><a href="#contributors">   Contributors</a></li>
-    <li><a href="#navigation">   Navigation</a></li>
+    <li><a href="#setup">   Setup</a></li>
 </details>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -58,9 +58,18 @@
 
 </p>
 
-<h2 id="navigation"></h2>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<pre align="center">To visit my website, please navigate to the "presentation" folder and open the "index.html" file.</pre>
+<h2 id="setup">Setup</h2>
+<strong>Important!<strong>
+<p>This website works with localhost. To easily localhost the website, please follow the enclosed steps.</p>
+<pre align="center">1. Open the project (the repository) with Visual Studio Code.
+  2. Navigate to "Extensions" and search for "Live Server".
+  3. Install "Live Server".
+  4. Right click on the "index.html" file and select "Open with Live Server".
+Note: If you already have the "Live Server" extension installed, please do steps 1. and 4. only.
+That's it, now you have localhosted the website and have direct access to it!
+</pre>
 
 <h3 align="center"> Thank you! <h3>
 <h4 align="center"> Made with ❤️, JS, HTML5 & CSS3. </h4>
