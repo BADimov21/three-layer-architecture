@@ -74,4 +74,4 @@ That's it, now you have localhosted the website and have direct access to it!
 <h3 align="center"> Thank you! <h3>
 <h4 align="center"> Made with ❤️, JS, HTML5 & CSS3. </h4>
 <hr>
-<h4 align="center"> Created by Bozhidar Dimov | &copy 2022 - 2023 All rights reserved.</h4>
+<h4 align="center"> Created by Bozhidar Dimov | &copy 2023 All rights reserved.</h4>
